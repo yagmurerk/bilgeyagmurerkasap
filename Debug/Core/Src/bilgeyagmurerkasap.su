@@ -1,0 +1,6 @@
+../Core/Src/bilgeyagmurerkasap.c:10:5:main	16	static
+../Core/Src/bilgeyagmurerkasap.c:35:6:init_USB	4	static
+../Core/Src/bilgeyagmurerkasap.c:48:6:init_GPIO	4	static
+../Core/Src/bilgeyagmurerkasap.c:57:6:send_char_over_USB	16	static
+../Core/Src/bilgeyagmurerkasap.c:62:6:delay	24	static
+../Core/Src/bilgeyagmurerkasap.c:74:6:send_value_to_terminal	32	static

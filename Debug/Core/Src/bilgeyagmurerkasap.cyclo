@@ -1,0 +1,6 @@
+bilgeyagmurerkasap.c:10:5:main	1
+bilgeyagmurerkasap.c:35:6:init_USB	1
+bilgeyagmurerkasap.c:48:6:init_GPIO	1
+bilgeyagmurerkasap.c:57:6:send_char_over_USB	2
+bilgeyagmurerkasap.c:62:6:delay	3
+bilgeyagmurerkasap.c:74:6:send_value_to_terminal	3
