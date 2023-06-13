@@ -16,7 +16,7 @@ int main(void) {
 	    while (1) {
 	        send_char_over_USB(data); // Send character over USB
 
-	        // Output character as a signal on GPIO pin PA5
+	        // Output character as a signal on GPIO pin PA5  WHERE MY FIRST NAME IS BİLGE GIVES NUMBER 5 
 	        GPIOA->BSRR = GPIO_BSRR_BS_5; // Set GPIOA Pin 5 high
 
 	        delay(1000); // Delay for 1 second
@@ -26,7 +26,7 @@ int main(void) {
 	        // Read the input from GPIO pin PA6 within 2 seconds
 	        delay(2000); // Delay for 2 seconds
 
-	        uint8_t output = (GPIOA->IDR & GPIO_IDR_IDR_6) ? 1 : 0; // Read input from GPIOA Pin 6
+	        uint8_t output = (GPIOA->IDR & GPIO_IDR_IDR_6) ? 1 : 0; // Read input from GPIOA Pin 6  WHERE MY SECOND NAME IS YAGMUR GIVES NUMBER 6
 
 	        send_value_to_terminal(output); // Send the read value to the terminal via USB
 	    }
